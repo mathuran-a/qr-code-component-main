@@ -4,43 +4,49 @@ body {
   background-color: #d6e2f0;
 }
 
+h1 {
+  display: none;
+}
+
 div {
   background-color: white;
   border-radius: 5%;
-  margin: 100px auto;
-  padding-bottom: 20px;
+  margin: 6.25rem auto;
+  padding: .9375rem;
+  padding-bottom: 1.25rem;
   text-align: center;
-  width: 85%;  /*22.5%;*/
+  /*width: 85%;  /*22.5%;*/
+  width: 100%;
+  max-width: 20rem
 }
 
-@media (min-width: 600px) {
+@media (min-width: 37.5rem) {
   div {
-    width: 22.5%;
+    /*width: 22.5%;*/
+    width: 100%;
+    max-width: 320px
   }
 }
 
 img {
   border-radius: 5%;
-  margin: 15px auto 0 auto;
   height: 60%;
-  width: 90%;
+  max-width: 20rem
 }
 
 
 h2 {
   color: #1f3251;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
-  margin: 15px auto;
-  width: 90%;
+  margin: .9375rem;
 }
 
 p {
   color: #7b879d;
-  font-size: 15px;
+  font-size: .9375rem;
   font-weight: 400;
-  margin: 15px auto;
-  width: 80%;
+  margin: .9375rem 1.875rem;
 }
 
 
